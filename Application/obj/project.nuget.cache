@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oDlvVsClzNvMCIP2uG7/hPlisrjH+K3PgKFPRQAo67DFV1/AJXxfsayZMse33lXqw2wz0hBVhOhjSV3YAMqHuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wigig\\source\\repos\\MapTask\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wigig\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\wigig\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\wigig\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
