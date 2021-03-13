@@ -38,17 +38,17 @@ namespace UI.WebApi.Controllers
 
         // POST: api/RegionShape
         [HttpPost]
-        public string Post([FromBody] RegionShapeDTO AreaDto)
+        public string Post([FromBody] RegionShapeDTO regionShapeDTO)
         {
-            var result = _regionShapeService.Add(AreaDto);
+            var result = _regionShapeService.Add(regionShapeDTO);
             return JsonConvert.SerializeObject(result);
         }
 
         // PUT api/RegionShape
         [HttpPut]
-        public string Put([FromBody] RegionShapeDTO AreaDto)
+        public string Put([FromBody] RegionShapeDTO regionShapeDTO)
         {
-            var result = _regionShapeService.Update(AreaDto);
+            var result = _regionShapeService.Update(regionShapeDTO);
             return JsonConvert.SerializeObject(result);
         }
 

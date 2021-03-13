@@ -28,7 +28,6 @@ namespace Application.Services
             try
             {
                 var regionShape = _mapper.Map<RegionShape>(regionShapeDTO);
-               // regionShape.Id = Guid.NewGuid();
                 _unitOfWork.RegionShapes.Add(regionShape);
 
                 if (_unitOfWork.SaveAllChanges() != 0)
